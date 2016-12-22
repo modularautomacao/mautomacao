@@ -7,6 +7,155 @@
  #header1{display:none;}
  #header2{display:none;}
  
+ header #banner #content{
+    display: table;
+    width: 100%;
+    height: 430px;
+    max-height: 430px;	
+}
+
+header #content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25%;
+    margin-bottom: 0px;
+    width: 960px;
+    font: 35px 'Open Sans';
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topo {
+
+	
+}
+
+header{
+	display: block;
+	width:100%;	
+	height: 600px;
+	margin-top:0px;
+	vertical-align:baseline;
+	
+}
+
+header #marca{
+    margin-top: 3%;	
+	vertical-align:baseline;
+	width: 100%;	
+	text-align: center;
+	display: block;
+}
+
+header #image{
+    width: 100%;	
+	text-align: center;
+	display: block;
+}
+
+header #slogan{   
+	vertical-align:baseline;
+	width: 100%;	
+	text-align: center;
+	display: block;
+	margin-top: 140px;
+	margin-bottom: 90px;
+	
+	
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 500px;
+  max-height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+ 
   .resume-anchor {
         padding-top: 40px;
 		margin-top:-40px;
@@ -23,7 +172,7 @@
  
  .section-div{
 	 		 
-   	padding-top: 6%;
+   	padding-top: 5%;
    	padding-bottom:: 4%;
 	 
  }
@@ -41,7 +190,7 @@
 }
 
 .modular-back-lightgray{
-	background-color: #fcfcfc !important;
+	background-color: #FaFaFa !important;
 }
 
 .modular-white {
@@ -58,7 +207,7 @@
 }
 
  .modular-back-grey {
-  background-color: #1a1a1a !important;
+	background-color: #1A1A1A !important;
 }
 
 .materialize-red {
@@ -2296,6 +2445,12 @@ html {
 body {
   margin: 0;
 }
+body p {
+}
+body p {
+}
+
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -4297,7 +4452,7 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
-  position: absolute;
+  position: relative;
   height: 56px;
   z-index: 1000;
   box-shadow: none;
@@ -4320,7 +4475,7 @@ nav .input-field label.active {
 .navbar-fixed nav {
 	position: fixed;
 	box-shadow: none;
-	background-color: rgba(0,0,0,0.00) !important;
+	background-color: rgba(26,26,26,1.00) !important;
 	transition-duration: 1s;
   
 }
@@ -7665,7 +7820,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 0;
   z-index: 1;
   width: 100%;
-  height: inherit;
+  height: 560px;  
   overflow: hidden;
 }
 
@@ -7706,16 +7861,16 @@ input[type=range]:focus::-ms-fill-upper {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 12px;
+  height: 8px;
+  width: 8px;
+  margin: -150px 10px;
   background-color: #e0e0e0;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #1e90ff;
 }
 
 .carousel {
@@ -7746,8 +7901,10 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
-  bottom: 68px;
+  bottom: 35%;
 }
+
+
 
 .carousel.carousel-slider .carousel-item {
   width: 100%;

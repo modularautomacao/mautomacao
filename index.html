@@ -5,54 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Modular Automação</title>
   <link rel="icon" type="image/png" href="images/favicon.png" />
-
-  <!-- CSS  -->
+  
+    <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>  
 
-<div class="navbar-default" >
-   	 <nav role="navigation" id="navdef">
-            <div class="nav-wrapper container">
-              <a id="logo-container" href="#" class="brand-logo"><object id="front-page-logo" class="responsive-img" width="120px" data="images/logo modular branco.png"></object></a>           
-              <ul class="right hide-on-med-and-down " >
-              	<li class="waves-effect waves-modular-blue"><a href="index.html#automacao" class="header center modular-white">Automação</a></li>
-                <li class="waves-effect waves-modular-blue"><a href="index.html#sobre" class="header center modular-white">Sobre</a></li>
-                <li class="waves-effect waves-modular-blue"><a href="index.html#servicos" class="header center modular-white">Serviços</a></li>
-                <li class="waves-effect waves-modular-blue"><a href="index.html#portfolio" class="header center modular-white">Portfólio</a></li>
-                <li class="waves-effect waves-modular-blue"><a href="index.html#contato" class="header center modular-white">Contato</a></li>
-              </ul>
-        
-              <ul id="nav-mobile" class="side-nav modular-back-white">
-              	<li><a href="index.html#automacao" class="waves-effect waves-light modular-blue">Automação</a></li>
-                <li><a href="index.html#sobre" class="waves-effect waves-light modular-blue">Sobre</a></li>
-                <li><a href="index.html#servicos" class="waves-effect waves-light modular-blue">Serviços</a></li>
-                <li><a href="index.html#portfolio" class="waves-effect waves-light modular-blue">Portfólio</a></li>
-                <li><a href="index.html#contato" class="waves-effect waves-light modular-blue">Contato</a></li>
-              </ul>
-              <a href="#" data-activates="nav-mobile" class="button-collapse modular-blue"><i class="material-icons modular-blue">menu</i></a>
-            </div>
-          </nav>
-   </div>
 
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot" style="height: 150px;">
-      <div class="container">
-        <div class="row center">
-          <h4 class="header col s12 light" id="header1" >Modular Automação</h4>
-          <h5 class="header col s12 light" id="header2">Inteligência pra sua casa</h5>
-          
+        <div class="navbar-default" id="navdef">
+             <nav>
+                <div class="nav-wrapper container">
+                  <a id="logo-container" href="#" class="brand-logo"><object id="front-page-logo" class="responsive-img" width="120px" data="images/logo modular branco.png"></object></a>           
+                  <ul class="right hide-on-med-and-down " >
+                    <li class="waves-effect waves-modular-blue"><a href="index.html#automacao" class="header center modular-white">Automação</a></li>
+                    <li class="waves-effect waves-modular-blue"><a href="index.html#sobre" class="header center modular-white">Sobre</a></li>
+                    <li class="waves-effect waves-modular-blue"><a href="index.html#servicos" class="header center modular-white">Serviços</a></li>
+                   <!-- <li class="waves-effect waves-modular-blue"><a href="index.html#portfolio" class="header center modular-white">Portfólio</a></li> -->
+                    <li class="waves-effect waves-modular-blue"><a href="index.html#contato" class="header center modular-white">Parceiros</a></li>
+                    <li class="waves-effect waves-modular-blue"><a href="index.html#contato" class="header center modular-white">Contato</a></li>
+                  </ul>
+            
+                  <ul id="nav-mobile" class="side-nav modular-back-white">
+                    <li><a href="index.html#automacao" class="waves-effect waves-light modular-blue">Automação</a></li>
+                    <li><a href="index.html#sobre" class="waves-effect waves-light modular-blue">Sobre</a></li>
+                    <li><a href="index.html#servicos" class="waves-effect waves-light modular-blue">Serviços</a></li>
+                    <li><a href="index.html#portfolio" class="waves-effect waves-light modular-blue">Portfólio</a></li>
+                    <li><a href="index.html#contato" class="waves-effect waves-light modular-blue">Parceiros</a></li>
+                    <li><a href="index.html#contato" class="waves-effect waves-light modular-blue">Contato</a></li>
+                  </ul>
+                  <a href="#" data-activates="nav-mobile" class="button-collapse modular-blue"><i class="material-icons modular-blue">menu</i></a>
+                </div>
+             </nav>
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/hero.jpg" alt="Unsplashed background img 1"/></div>
-</div>
 
-<div class="section-div modular-back-grey" style="height: 200px;">
+<header class="topo modular-back-grey" id="desktop-only">        
+       
+        <div class="slider" >
+            <ul class="slides">
+              <li>
+                <img src="images/cover1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                <!--  <h3>Swipe</h3>
+                  <h5 class="light grey-text text-lighten-3">Controle por gestos</h5>  -->                
+                </div> 
+              </li>
+              <li>
+                <img src="images/cover2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Funcionalidades exclusivas</h3>
+                  <h5 class="light grey-text text-lighten-3">Monitoramento de consumo em tempo real.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/cover3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Controle sua casa de qualquer lugar</h3>
+                  <h5 class="light grey-text text-lighten-3">Utilize seu smartphone, tablet ou computador.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/cover4.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Swipe</h3>
+                  <h5 class="light grey-text text-lighten-3">Controle sua casa com gestos</h5>
+                </div>
+              </li>
+            </ul>
+        </div>
+        
+      
+       <!--     
+        <div class="carousel carousel-slider center" data-indicators="true">
+        
+        	<div class="carousel-fixed-item center">      			
+                <img src="images/logo modular sombra v7.png" style="width:100%; max-width:400px;">
+                <h5 class="header light modular-white">Inteligência pra sua casa</h5>
+    		</div>
+        
+            <a class="carousel-item" href="#one!"><img src="images/heroblack.jpg" style="width:100%; height:500px;"></a>
+            <a class="carousel-item" href="#two!"><img src="images/heroblack.jpg" style="width:100%; height:500px;"></a>
+            <a class="carousel-item" href="#three!"><img src="images/heroblack.jpg" style="width:100%; height:500px;"></a>                    
+        </div> 
+        -->
+     </header>  
 
-</div>
 
 <div class="section-div modular-back-white" id="automacao">
   	<div class="container center">
@@ -81,13 +119,13 @@
   <div class="section-div modular-back-white" id="servicos">
     <div class="container center">    	                   
         <h4>Serviços</h4>        
-        <p class="center-align light"> Pensando na praticidade e no conforto dos nossos clientes, oferecemos um sistema de automação modular, sem fio e confiável que pode ser instalado em qualquer residência, com o mínimo de mudanças na infraestrutura. Nossa solução possui interface amigável e pode ser utilizada por qualquer pessoa através de smartphone ou tablet, sem limite de licenças e sem qualquer custo adicional. E o melhor de tudo: custa menos do que você imagina! </p>
-        
+        <p class="center-align light"> Pensando na praticidade e no conforto dos nossos clientes, oferecemos um sistema de automação modular, sem fio e confiável que pode ser instalado em qualquer residência, com o mínimo de mudanças na infraestrutura. Nossa solução possui interface amigável e pode ser utilizada por qualquer pessoa através de smartphone ou tablet, sem limite de licenças e sem qualquer custo adicional. </p>
+  
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/1.png" width="75" height="75" alt=""/></h2>
+             <div class = "iluminacao" ></div>
             <h5 class="center">Iluminação</h5>
 
             <p class="light">Ligue, desligue ou dimerize a iluminação de acordo com sua necessidade. Além de aumentar a vida útil da lâmpada, a dimerização promove a economia de energia.</p>
@@ -96,7 +134,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/2.png" width="75" height="75" alt=""/></h2>
+             <div class = "audiovideo" ></div>
             <h5 class="center">Áudio & Vídeo</h5>
 
             <p class="light">Guarde todos os controles remotos e controle tudo pelo smartphone ou tablet. Nossa solução para sistema de áudio e vídeo facilita sua vida na hora de assistir filmes ou ao jogo do seu time preferido.</p>
@@ -105,7 +143,7 @@
         
 <div class="col s12 m4">
         <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/15.png" width="75" height="75" alt=""/></h2>
+             <div class = "seguranca" ></div>
             <h5 class="center">Segurança</h5>
 
             <p class="light">Para que você e sua família se sintam mais seguros, oferecemos soluções em câmeras de monitoramento, ideal pra quem tem crianças ou idosos em casa, e em controle de acesso, onde você pode entrar em casa utilizando apenas sua digital.</p>
@@ -116,7 +154,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/3.png" width="75" height="75" alt=""/></h2>
+             <div class = "cortinas" ></div>
             <h5 class="center">Cortinas motorizadas</h5>
 
             <p class="light">Controle a quantidade de luz que entra na sua sala com apenas um toque.</p>
@@ -125,7 +163,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/4.png" width="75" height="75" alt=""/></h2>
+             <div class = "climatizacao" ></div>
             <h5 class="center">Climatização</h5>
 
             <p class="light">Regule a temperatura do ar condicionado e mantenha o ambiente à temperatura ideal.</p>
@@ -134,7 +172,7 @@
         
 <div class="col s12 m4">
         <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/6.png" width="75" height="75" alt=""/></h2>
+             <div class = "sensores" ></div>
             <h5 class="center">Sensores</h5>
 
             <p class="light">Sua casa toma decisões por você com nossa linha de sensores abertura de porta, movimento, temperatura, luz e fumaça.</p>
@@ -145,7 +183,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/9.png" width="75" height="75" alt=""/></h2>
+             <div class = "consumo" ></div>
             <h5 class="center">Consumo de energia</h5>
 
             <p class="light">Nosso sistema de automação possui uma tela exclusiva para monitoramento de consumo energético. Desta forma, você sabe o que está consumindo mais energia e economiza ao final do mês.</p>
@@ -154,7 +192,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/10.png" width="75" height="75" alt=""/></h2>
+             <div class = "acessoremoto" ></div>
             <h5 class="center">Acesso remoto</h5>
 
             <p class="light">Controle sua casa de qualquer lugar com acesso à internet. Você poderá acionar a iluminação simulando a presença de uma pessoa quando você estiver viajando ou acessar as câmeras de segurança, por exemplo.</p>
@@ -163,7 +201,7 @@
         
 <div class="col s12 m4">
         <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/11.png" width="75" height="75" alt=""/></h2>
+             <div class = "programacaocenas" ></div>
             <h5 class="center">Programação de cenas</h5>
 
             <p class="light">Com apenas um toque é possível deixar o ambiente perfeito para cada ocasião.</p>
@@ -174,7 +212,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/7.png" width="75" height="75" alt=""/></h2>
+             <div class = "agendamentotarefas" ></div>
             <h5 class="center">Agendamento de tarefas</h5>
 
             <p class="light">Automatize as atividades diárias de sua residência ou empresa, como o desligamento dos aparelhos de ar condicionados ao fim do expediente.</p>
@@ -183,7 +221,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/8.png" width="75" height="75" alt=""/></h2>
+             <div class = "bombasirrigacao" ></div>
             <h5 class="center">Bombas e irrigação</h5>
 
             <p class="light">Acione o sistema de bombas da piscina ou a irrigação do jardim. Melhor ainda, agende esta atividade e não se preocupe mais com isso.</p>
@@ -192,7 +230,7 @@
         
 		<div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center modular-blue"><img src="images/icons/13.png" width="75" height="75" alt=""/></h2>
+             <div class = "sistemasemfio" ></div>
             <h5 class="center">Sistema sem fio e modular</h5>
 
             <p class="light">Diferente de outros sistemas de automação, não é necessário executar uma obra de reforma para instalação. E por ser modular, você pode automatizar apenas um cômodo e em outro momento expandir para o restante da casa.</p>
@@ -202,22 +240,26 @@
 
     </div>
   </div>
-
+<!--
  <div class="section-div modular-back-lightgray" id="portfolio">
- 	<div class="container center">    	                   
+ 	<div class="container center">  	                   
         <h4>Portfólio</h4>  
         <p class="center-align light"> Confira abaixo alguns dos nossos principais trabalhos realizados.</p>      
+         
          <div class="carousel">
             <a class="carousel-item" href="#one!"><img src="images/Imagem 2.png"></a>
-            <a class="carousel-item" href="#two!"><img src="images/Imagem 3.png"></a>
-            <a class="carousel-item" href="#three!"><img src="images/Imagem 4.png"></a>
-            <a class="carousel-item" href="#four!"><img src="images/Imagem 5.png"></a>
-            <a class="carousel-item" href="#five!"><img src="images/Imagem 6.png"></a>
-          </div>
-     </div>
+            <a class="carousel-item" href="#two!"><img src="images/Imagem 2.png"></a>
+            <a class="carousel-item" href="#three!"><img src="images/Imagem 2.png"></a>
+            <a class="carousel-item" href="#four!"><img src="images/Imagem 2.png"></a>
+            <a class="carousel-item" href="#five!"><img src="images/Imagem 2.png"></a>
+         </div>
+         
+         
+    </div>
   </div>
+-->
 
-  <div class="parallax-container valign-wrapper" >
+  <div class="parallax-container valign-wrapper" id="desktop-only">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">          
@@ -226,6 +268,74 @@
       </div>
     </div>
     <div class="parallax"><img src="images/htblu.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  
+  <div class="section-div modular-back-lightgray" id="parceiros">
+  	<div class="container center">
+    	<h4>Parceiros</h4>
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center modular-blue"><img src="images/fibarologo.png" width="170" height="50" alt=""/></h2>
+              </div>
+            </div>
+            
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center modular-blue"><img src="images/global cache logo.png" width="170" height="75" alt=""/></h2>
+              </div>
+            </div>
+            
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center modular-blue"><img src="images/ambienteg3 logo.png" width="175" height="50" alt=""/></h2>
+              </div>
+            </div> 
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center modular-blue"><img src="images/LOGO INMENSE PNG.png" width="170" height="50" alt=""/></h2>
+              </div>
+            </div>
+            
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center modular-blue"><img src="images/2n logo.png" width="150" height="75" alt=""/></h2>
+              </div>
+            </div>
+            
+            <div class="col s12 m4">
+              <div class="icon-block">
+              <h2 class="center modular-blue"><img src="images/intelbras logo.png" width="175" height="45" alt=""/>
+              </div>
+            </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <!--<h2 class="center modular-blue"><img src="images/global cache logo.png" width="170" height="75" alt=""/></h2>-->
+                  </div>
+                </div>
+                
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <h2 class="center modular-blue"><img src="images/loudaudio logo.png" width="130" height="80" alt=""/></h2>
+                  </div>
+                </div>
+                
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <!--<h2 class="center modular-blue"><img src="images/global cache logo.png" width="170" height="75" alt=""/></h2>-->
+                  </div>
+                </div> 
+            </div>
+        
+        
+    </div>
   </div>
 
   <div class="container" id="contato">

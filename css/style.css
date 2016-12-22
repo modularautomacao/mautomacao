@@ -6,16 +6,27 @@
  * Made By MaterializeCSS.com
  */
  
+@media screen and (max-width: 700px) {
+  #desktop-only {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+ 
  .facebook {
   display: inline-block;
   background-image: url('../images/icons/facebook_branco.png');
   background-repeat:no-repeat;
-  width: 50px;
-  height: 50px;
-  background-size: 50px;
+  width: 30px;  
+  height: 30px;  
+  background-size: 30px;
 }
 .facebook:hover {
-  background-image: url('../images/icons/facebook_azul.png');
+  background-image: url('../images/icons/facebook_azul_modular.png');
   background-repeat:no-repeat;
 }
 
@@ -23,12 +34,12 @@
   display: inline-block;
   background-image: url('../images/icons/instagram_branco.png');
   background-repeat:no-repeat;
-  width: 50px;
-  height: 50px;
-  background-size: 50px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
 }
 .instagram:hover {
-  background-image: url('../images/icons/instagram_rosa.png');
+  background-image: url('../images/icons/instagram_azul_modular.png');
   background-repeat:no-repeat;
 }
 
@@ -36,12 +47,12 @@
   display: inline-block;
   background-image: url('../images/icons/youtube_branco.png');
   background-repeat:no-repeat;
-  width: 50px;
-  height: 50px;
-  background-size: 50px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
 }
 .youtube:hover {
-  background-image: url('../images/icons/youtube_vermelho.png');
+  background-image: url('../images/icons/youtube_azul_modular.png');
   background-repeat:no-repeat;
 }
 
@@ -63,6 +74,176 @@
   background-size: 25px;
 }
 
+/*!
+ icones dos serviços mudam de cor com o mouse
+ */
+
+.iluminacao {
+  display: inline-block;
+  background-image: url('../images/icons/1.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.iluminacao:hover {
+  background-image: url('../images/icons/1 azul.png');
+  background-repeat:no-repeat;
+}
+
+.audiovideo {
+  display: inline-block;
+  background-image: url('../images/icons/2.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.audiovideo:hover {
+  background-image: url('../images/icons/2 azul.png');
+  background-repeat:no-repeat;
+}
+
+.seguranca {
+  display: inline-block;
+  background-image: url('../images/icons/15.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.seguranca:hover {
+  background-image: url('../images/icons/15 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.cortinas {
+  display: inline-block;
+  background-image: url('../images/icons/3.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.cortinas:hover {
+  background-image: url('../images/icons/3 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.climatizacao {
+  display: inline-block;
+  background-image: url('../images/icons/4.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.climatizacao:hover {
+  background-image: url('../images/icons/4 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.sensores {
+  display: inline-block;
+  background-image: url('../images/icons/6.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.sensores:hover {
+  background-image: url('../images/icons/6 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.consumo {
+  display: inline-block;
+  background-image: url('../images/icons/9.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.consumo:hover {
+  background-image: url('../images/icons/9 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.acessoremoto {
+  display: inline-block;
+  background-image: url('../images/icons/10.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.acessoremoto:hover {
+  background-image: url('../images/icons/10 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.programacaocenas {
+  display: inline-block;
+  background-image: url('../images/icons/11.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.programacaocenas:hover {
+  background-image: url('../images/icons/11 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.agendamentotarefas {
+  display: inline-block;
+  background-image: url('../images/icons/7.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.agendamentotarefas:hover {
+  background-image: url('../images/icons/7 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.bombasirrigacao {
+  display: inline-block;
+  background-image: url('../images/icons/8.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.bombasirrigacao:hover {
+  background-image: url('../images/icons/8 azul.png');
+  background-repeat:no-repeat;
+}
+
+
+.sistemasemfio {
+  display: inline-block;
+  background-image: url('../images/icons/13.png');
+  background-repeat:no-repeat;
+  width: 75px;  
+  height: 75px;  
+  background-size: 75px;
+}
+.sistemasemfio:hover {
+  background-image: url('../images/icons/13 azul.png');
+  background-repeat:no-repeat;
+}
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -79,7 +260,7 @@ p {
 .parallax-container {
 	min-height: 380px;
 	line-height: 0;
-	height: 800px;
+	height: 500px;
 	color: rgba(255,255,255,.9);
 }
   .parallax-container .section {

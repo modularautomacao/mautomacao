@@ -14,7 +14,7 @@ $(document).ready(function(){
      
 	 else{ 	 
 	 	if(scroll_start > offset.top) {
-          $('#navdef').css('background-color', 'rgba(0,0,0,0.7)');
+          $('#navdef').css('background-color', 'rgba(0,0,0,0.7)');		  
        } else {
           $('#navdef').css('background-color', 'transparent');
        }
@@ -56,11 +56,23 @@ $(document).ready(function () {
 });
 
     
-	
-	
+	/*	
 $(document).ready(function(){
-	$('.carousel').carousel();
-});
+        $('.carousel').carousel({dist:0});
+        window.setInterval(function(){$('.carousel').carousel('next')},7000)
+     });
+
+
+$('.carousel.carousel-slider').carousel({full_width: true});
+*/
+
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });
+
+ $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
 
 
 
